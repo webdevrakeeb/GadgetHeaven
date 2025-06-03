@@ -1,0 +1,190 @@
+[
+  {
+    "product_id": "14e71eb2-2256-4d02-bb8d-d72b7905ae09",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://i.ibb.co/HLmDbdnG/Applei-Phone15-Pro-Max.png",
+    "category": "Iphone",
+    "price": 1299,
+    "description": "The latest Apple iPhone 15 Pro Max packed with premium features.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "48 MP Pro camera system",
+      "LiDAR Scanner",
+      "Up to 2 TB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "5ef74d9b-1d7d-4ecd-9303-269246c87ab5",
+    "product_title": "Samsung Galaxy Watch 7 Pro",
+    "product_image": "https://i.ibb.co/sddYTr3B/976277f1-3732-47f7-be32-04687f11efd8.png",
+    "category": "Smartwatches",
+    "price": 549,
+    "description": "Advanced BioActive Sensor and route workout guidance.",
+    "specification": [
+      "47 mm titanium case",
+      "BioActive Sensor 3.0",
+      "LTE & Bluetooth",
+      "Route workout guidance",
+      "IP68 & MIL-STD-810H"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "883d4bf1-f7af-4e9f-8b59-bcbabdae9082",
+    "product_title": "Samsung Galaxy S24 Ultra",
+    "product_image": "https://i.ibb.co/TDRdRWtV/ac58ce3b-7b2d-4ab0-b1e8-579b66688496.png",
+    "category": "Smartphones",
+    "price": 1199,
+    "description": "A powerhouse flagship with 200 MP camera and built-in S Pen.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED 2X",
+      "Snapdragon 8 Gen 3",
+      "200 MP quad-camera",
+      "S-Pen support",
+      "1 TB storage option"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "6c3f977a-8096-4694-8d6b-34ce5e6d0d3c",
+    "product_title": "Google Pixel 9 Pro",
+    "product_image": "https://i.ibb.co/hJ7Js21x/a8a696ca-d4cd-494a-beed-5e4b2b8fdb1e.png",
+    "category": "Smartphones",
+    "price": 999,
+    "description": "Pixel 9 Pro with Google Tensor G4 and pro-grade camera zoom.",
+    "specification": [
+      "6.7-inch LTPO OLED 120 Hz",
+      "Google Tensor G4",
+      "Triple camera with 5× telephoto",
+      "Titan M3 security chip",
+      "Fast wireless charging"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "dc4b1384-6367-415d-8efa-312747262d11",
+    "product_title": "OnePlus 12",
+    "product_image": "https://i.ibb.co/Y4bpGNLN/bb0b0ab3-9ab4-4e4c-95b6-1b04a0c058bb.png",
+    "category": "Smartphones",
+    "price": 899,
+    "description": "Super-smooth 120 Hz display and 100 W SuperVOOC charging.",
+    "specification": [
+      "6.82-inch Fluid AMOLED",
+      "Snapdragon 8 Gen 3",
+      "Hasselblad-tuned cameras",
+      "100 W SuperVOOC",
+      "512 GB storage"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },  
+  {
+    "product_id": "c18e2e5b-4f72-47d6-9d68-884638ea9ff4",
+    "product_title": "MacBook Pro 14-inch (M3 Pro)",
+    "product_image": "https://i.ibb.co/S7PdCzH1/f4446890-98cd-49fc-a03e-bde2ed398173.png",
+    "category": "Laptops",
+    "price": 1999,
+    "description": "M3 Pro power with Liquid Retina XDR display.",
+    "specification": [
+      "Apple M3 Pro chip",
+      "14.2-inch Liquid Retina XDR",
+      "18 GB unified memory",
+      "1 TB SSD",
+      "22-hour battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "a3f2c2f6-c800-4c28-b089-3436b44991e4",
+    "product_title": "Sony Xperia 1 VI",
+    "product_image": "https://i.ibb.co/fzPQ7VBb/c250c697-bd4d-48d0-8ea9-2411f8ccccf8.png",
+    "category": "Smartphones",
+    "price": 1099,
+    "description": "4K OLED screen with Alpha-series camera technology.",
+    "specification": [
+      "6.5-inch 4K OLED 120 Hz",
+      "Snapdragon 8 Gen 3",
+      "Alpha-grade optics",
+      "1-inch camera sensor",
+      "micro-SD support"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "b7f7b33b-4e21-43fc-985f-ee49bfa6a3a8",
+    "product_title": "Nothing Phone (3)",
+    "product_image": "https://i.ibb.co/QvxnCKW7/90614732-bfcb-417d-b08b-ffab6a1545c9.png",
+    "category": "Smartphones",
+    "price": 749,
+    "description": "Transparent design with Glyph Interface 2.0 lighting.",
+    "specification": [
+      "6.7-inch AMOLED 120 Hz",
+      "Snapdragon 8s Gen 3",
+      "Dual 50 MP cameras",
+      "Glyph Interface 2.0",
+      "Transparent housing"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "0baf7e4c-23cb-411e-93e8-92a0cac6abc1",
+    "product_title": "Dell XPS 16 (2025)",
+    "product_image": "https://i.ibb.co/dJQgDRrc/33d52aef-3c04-46e1-8ff1-d5067996f237.png",
+    "category": "Laptops",
+    "price": 2399,
+    "description": "Creator-class OLED 4 K laptop with RTX 4070 graphics.",
+    "specification": [
+      "Intel Core Ultra 9",
+      "16.3-inch 4 K OLED",
+      "32 GB DDR5 RAM",
+      "2 TB NVMe SSD",
+      "RTX 4070 GPU"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "4d138ad4-e03e-46e5-83d9-b59792ede38c",
+    "product_title": "Apple Watch Ultra 2",
+    "product_image": "https://i.ibb.co/ns8YT0Wv/593935b6-87e4-46a6-b48e-d2402b7cdf71.png",
+    "category": "Smartwatches",
+    "price": 799,
+    "description": "Rugged titanium case with 36-hour battery life.",
+    "specification": [
+      "49 mm titanium case",
+      "S9 SiP",
+      "Dual-frequency GPS",
+      "36-hour battery",
+      "100 m water resistance"
+    ],
+    "availability": true,
+    "rating": 4.8
+  }
+  ,
+  {
+    "product_id": "4d138ad4-e03e-46e5-6880-rakeeb2ede38c",
+    "product_title": "Apple AirPods Pro 2",
+    "product_image": "https://i.ibb.co/yc08HrBK/e6d1771f-408a-4197-9cd5-1705a033c9f7.png",
+    "category": "Accessories",
+    "price": 599,
+    "description": "Rugged titanium case with 36-hour battery life.",
+    "specification": [
+      "49 mm titanium case",
+      "S9 SiP",
+      "Dual-frequency GPS",
+      "36-hour battery",
+      "100 m water resistance"
+    ],
+    "availability": true,
+    "rating": 4.5
+  }
+]

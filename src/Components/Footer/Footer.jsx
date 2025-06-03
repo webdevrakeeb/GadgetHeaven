@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='py-[40px] lg:py-[100px]'>
+        <div className='py-[40px] lg:py-[100px] bg-white'>
             <div className="container">
                 <div className="top-part pb-5 md:pb-8 border-b border-b-[rgba(9,8,15,0.10)]">
                     <h2 className='text-[#09080F] text-[32px] font-Sora font-bold text-center mb-3'>Gadget Heaven</h2>

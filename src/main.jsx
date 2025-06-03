@@ -10,6 +10,7 @@ import Root from './Components/Root/Root';
 import Home from './Components/Home/Home';
 import Statistics from './Components/Statistics/Statistics';
 import Dashboard from './Components/Dashboard/Dashboard';
+import Details from './Components/Details/Details';
 
 const router = createBrowserRouter([
   {
@@ -22,11 +23,15 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: '/statistics',
+        path: 'product-details/:productid',
+        element: <Details></Details>
+      },
+      {
+        path: 'statistics',
         element: <Statistics></Statistics>
       },
       {
-        path: '/dashboard',
+        path: 'dashboard',
         element: <Dashboard></Dashboard>
       }
     ]
