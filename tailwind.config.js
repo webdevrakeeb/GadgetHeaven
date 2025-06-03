@@ -13,6 +13,9 @@ export default {
         '0f': '#09080F',
         'muted': 'rgba(9, 8, 15, 0.60)'
       },
+      backgroundColor: {
+        'brand': '#9538E2'
+      }
     },
   },
   plugins: [],
