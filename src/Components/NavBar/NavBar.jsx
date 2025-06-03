@@ -56,13 +56,13 @@ const NavBar = () => {
                 </div>
                 <div className="aside-navigation px-5">
                     <div className='flex flex-col gap-y-3'>
-                        <NavLink to='/' className={({isActive}) => `text-white font-Sora font-medium hover:underline ${
+                        <NavLink to='/' className={({isActive}) => `font-Sora font-medium hover:underline ${
                             isActive ? 'text-green-500' : 'text-white'
                         }`}>Home</NavLink>
-                        <NavLink to='statistics' className={({isActive}) => `text-white font-Sora font-medium hover:underline ${
+                        <NavLink to='statistics' className={({isActive}) => `font-Sora font-medium hover:underline ${
                             isActive ? 'text-green-500' : 'text-white'
                         }`}>Statistics</NavLink>
-                        <NavLink to='dashboard' className={({isActive}) => `text-white font-Sora font-medium hover:underline ${
+                        <NavLink to='dashboard' className={({isActive}) => `font-Sora font-medium hover:underline ${
                             isActive ? 'text-green-500' : 'text-white'
                         }`}>Dashboard</NavLink>
                     </div>
@@ -72,5 +72,4 @@ const NavBar = () => {
         </div>
     );
 };
-
 export default NavBar;
