@@ -1,9 +1,15 @@
-const Wishlist = ({product,handleAddToCart}) => {
+import { HiOutlineXMark } from "react-icons/hi2";
+const Wishlist = ({product,handleAddToCart,removeFromWish}) => {
     const {product_id, product_image, product_title, description, price} = product;
     return (
         <div>
-            <div className="p-8 bg-white rounded-2xl">
-                <div className="flex flex-col lg:flex-row gap-x-8">
+            <div className="relative p-8 bg-white rounded-2xl">
+                <div 
+                    onClick={()=>removeFromWish(product_id)}
+                    className="absolute right-[25px] top-[25px] xmar w-9 h-9 rounded-[50%] border border-[#F00] flex items-center justify-center cursor-pointer">
+                    <HiOutlineXMark className="text-[#F00] text-2xl"/>
+                </div>
+                <div className="flex flex-col lg:flex-row gap-y-5 gap-x-8">
                     <div className="lg:w-[200px]">
                         <img className="h-[150px] block mx-auto" src={product_image} alt="" />
                     </div>

@@ -12,6 +12,8 @@ import Statistics from './Components/Statistics/Statistics';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Details from './Components/Details/Details';
 import { addToCartList, addToWishList } from './Utilies/SaveToLS';
+import PurchaseModal from './Components/Modal/Modal';
+import TextChart from './Components/Statistics/TextChart';
 
 
 // Handle Mark Read
@@ -41,7 +43,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'statistics',
-        element: <Statistics></Statistics>
+        element: <TextChart></TextChart>
       },
       {
         path: 'dashboard',
@@ -57,5 +59,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    {/* <PurchaseModal></PurchaseModal> */}
   </StrictMode>,
 )

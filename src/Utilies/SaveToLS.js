@@ -30,7 +30,6 @@ const getWishList = () => {
         return [];
     }
 }
-
 const addToWishList = (id) => {
     const stroedWishList = getWishList();
     if (stroedWishList.includes(id)) {
@@ -43,5 +42,25 @@ const addToWishList = (id) => {
     }
 }
 
+// Remove Item From Cart
+const removeItemFromLS = id => {
+    const cart = getCartList();
+    const remainig = cart.filter(idx => idx !== id);
+    localStorage.setItem('cart', JSON.stringify(remainig));
+    alert('Item removed from cart.');
+}
 
-export {addToCartList, getCartList, addToWishList, getWishList}
+// Remove Wish Item
+const removeWishItemLS = id => {
+    const wish = getWishList();
+    const remainigWish = wish.filter(idx => idx !== id);
+    localStorage.setItem('wish-list', JSON.stringify(remainigWish));
+    alert('Item removed from Wishlist.');
+}
+
+const clearLocalStorage = () => {
+    localStorage.removeItem('cart');
+}
+
+
+export {addToCartList, getCartList, addToWishList, getWishList, removeItemFromLS, clearLocalStorage, removeWishItemLS}
