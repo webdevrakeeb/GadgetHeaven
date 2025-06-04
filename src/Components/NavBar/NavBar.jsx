@@ -40,11 +40,11 @@ const NavBar = () => {
                         isHome ? `text-white ${isActive ? 'underline' : ''}` 
                         : `text-black ${isActive ? 'underline' : ''}`
                     }`}>Home</NavLink>
-                    <NavLink to='statistics' className={({isActive}) => `font-Sora text-white font-medium hover:underline ${
+                    <NavLink to='statistics' className={({isActive}) => `font-Sora font-medium hover:underline ${
                         isHome ? `text-white ${isActive ? 'underline' : ''}` 
                         : `text-black ${isActive ? 'underline' : ''}`
                     }`}>Statistics</NavLink>
-                    <NavLink to='dashboard' className={({isActive}) => `font-Sora text-white font-medium hover:underline ${
+                    <NavLink to='dashboard' className={({isActive}) => `font-Sora font-medium hover:underline ${
                         isHome ? `text-white ${isActive ? 'underline' : ''}` 
                         : `text-black ${isActive ? 'underline' : ''}`
                     }`}>Dashboard</NavLink>
