@@ -25,7 +25,7 @@ const Gadgets = () => {
             <h2 className="text-[#0B0B0B] text-[25px] md:text-[40px] font-Sora font-bold text-center pb-3 md:pb-6 lg:pb-12">Explore Cutting-Edge Gadgets</h2>
             <div className="flex flex-col md:flex-row gap-x-6 gap-y-5">
                 <div>
-                    <FilterItems handleSort={handleSort}></FilterItems>
+                    <FilterItems handleSort={handleSort} selectedCategory={selectedCategory}></FilterItems>
                 </div>
                 <div className="w-full md:w-[calc(100%-250px)] grid grid-cols-1 lg:grid-cols-3 gap-6">
                     {

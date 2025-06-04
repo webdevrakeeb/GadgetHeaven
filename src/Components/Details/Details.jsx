@@ -1,22 +1,15 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 import { IoMdHeartEmpty } from "react-icons/io";
-import { addToCartList, addToWishList } from "../../Utilies/SaveToLS";
 
-const Details = () => {
+
+const Details = ({handleAddToCart, addWithList}) => {
     const {productid} = useParams();
     const data = useLoaderData();
     const targetProduct = data.find(product => product.product_id === productid);
     const {product_image, product_title, price, availability, description, specification, rating} = targetProduct;
 
-    // Handle Mark Read
-    const handleAddToCart = (ID) => {
-        addToCartList(ID);
-    }
-    // Handle Wish List
-    const addWithList = (ID) => {
-        addToWishList(ID);
-    }
+
     return (
         <>
             <div className="bg-brand pt-8">

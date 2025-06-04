@@ -11,6 +11,18 @@ import Home from './Components/Home/Home';
 import Statistics from './Components/Statistics/Statistics';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Details from './Components/Details/Details';
+import { addToCartList, addToWishList } from './Utilies/SaveToLS';
+
+
+// Handle Mark Read
+const handleAddToCart = (ID) => {
+    addToCartList(ID);
+    console.log(ID, 'Clicked On WishList')
+}
+// Handle Wish List
+const addWithList = (ID) => {
+    addToWishList(ID);
+}
 
 const router = createBrowserRouter([
   {
@@ -25,7 +37,7 @@ const router = createBrowserRouter([
       {
         path: 'product-details/:productid',
         loader: () => fetch('/gadgets.json'),
-        element: <Details></Details>
+        element: <Details handleAddToCart={handleAddToCart} addWithList={addWithList}></Details>
       },
       {
         path: 'statistics',
@@ -34,7 +46,7 @@ const router = createBrowserRouter([
       {
         path: 'dashboard',
         loader: () => fetch('/gadgets.json'),
-        element: <Dashboard></Dashboard>
+        element: <Dashboard handleAddToCart={handleAddToCart}></Dashboard>
       }
     ]
   },

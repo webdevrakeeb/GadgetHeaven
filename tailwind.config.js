@@ -11,7 +11,8 @@ export default {
       },
        textColor: {
         '0f': '#09080F',
-        'muted': 'rgba(9, 8, 15, 0.60)'
+        'muted': 'rgba(9, 8, 15, 0.60)',
+        'brand': '#9538E2'
       },
       backgroundColor: {
         'brand': '#9538E2'
