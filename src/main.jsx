@@ -8,18 +8,16 @@ import './index.css'
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import Root from './Components/Root/Root';
 import Home from './Components/Home/Home';
-import Statistics from './Components/Statistics/Statistics';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Details from './Components/Details/Details';
 import { addToCartList, addToWishList } from './Utilies/SaveToLS';
-import PurchaseModal from './Components/Modal/Modal';
 import TextChart from './Components/Statistics/TextChart';
+import { ToastContainer } from 'react-toastify';
 
 
 // Handle Mark Read
 const handleAddToCart = (ID) => {
     addToCartList(ID);
-    console.log(ID, 'Clicked On WishList')
 }
 // Handle Wish List
 const addWithList = (ID) => {
@@ -59,6 +57,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
-    {/* <PurchaseModal></PurchaseModal> */}
+    <ToastContainer />
   </StrictMode>,
 )

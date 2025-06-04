@@ -69,8 +69,8 @@ const NavBar = () => {
                         >
                             {
                                 openSiteBar == false ?
-                                <RiMenu3Fill className='text-white text-[40px] cursor-pointer'/> : 
-                                <HiMiniXMark className='text-white text-[40px] cursor-pointer'/>
+                                <RiMenu3Fill className={`${isHome ? 'text-white' : 'text-brand'}  text-[40px] cursor-pointer`}/> : 
+                                <HiMiniXMark className={`${isHome ? 'text-white' : 'text-brand'}  text-[40px] cursor-pointer`}/>
                             }
                             
                         </li>

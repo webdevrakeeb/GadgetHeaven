@@ -17,7 +17,7 @@ const Gadgets = () => {
 
         // Filter gadgets based on selected category
     const filteredGadgets = selectedCategory === 'All'
-        ? gadgets
+        ? gadgets.slice(0, 9)
         : gadgets.filter(gadget => gadget.category === selectedCategory);
 
     return (

@@ -1,15 +1,3 @@
-// import React from 'react';
-
-// const customLegend = () => {
-//     return (
-//         <div>
-            
-//         </div>
-//     );
-// };
-
-// export default customLegend;
-
 export const CustomLegend = () => (
   <div className="flex gap-4 mt-4 justify-center">
     <div className="flex items-center gap-1">

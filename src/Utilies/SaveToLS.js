@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 // Add to Cart
 const getCartList = () => {
     const cartListStr = localStorage.getItem('cart');
@@ -11,12 +13,30 @@ const getCartList = () => {
 const addToCartList = (id) => {
     const cartList = getCartList();
     if (cartList.includes(id)) {
-        alert('Already Exists On Your Cart.');
+        toast.warn('Already Exists On Your Cart.', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+        });
     } else {
         cartList.push(id);
         const cartListStr = JSON.stringify(cartList);
         localStorage.setItem('cart', cartListStr);
-        alert('Successfully Added On Cart.');
+        toast.success('Successfully Added On Cart.', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+        });
     }
 }
 
@@ -33,12 +53,30 @@ const getWishList = () => {
 const addToWishList = (id) => {
     const stroedWishList = getWishList();
     if (stroedWishList.includes(id)) {
-        alert('Already Exists On Your Wish List.');
+        toast.warn('Already Exists On Your Wish List.', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+        });
     } else {
         stroedWishList.push(id);
         const stroedWishStr = JSON.stringify(stroedWishList);
         localStorage.setItem('wish-list', stroedWishStr);
-        alert('Successfully Added On Wish List.');
+        toast.success('Successfully Added On Wish List.', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+        });
     }
 }
 
@@ -47,7 +85,16 @@ const removeItemFromLS = id => {
     const cart = getCartList();
     const remainig = cart.filter(idx => idx !== id);
     localStorage.setItem('cart', JSON.stringify(remainig));
-    alert('Item removed from cart.');
+    toast.success('Item removed from cart.', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+    });
 }
 
 // Remove Wish Item
@@ -55,7 +102,16 @@ const removeWishItemLS = id => {
     const wish = getWishList();
     const remainigWish = wish.filter(idx => idx !== id);
     localStorage.setItem('wish-list', JSON.stringify(remainigWish));
-    alert('Item removed from Wishlist.');
+    toast.success('Item removed from Wishlist.', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+    });
 }
 
 const clearLocalStorage = () => {
